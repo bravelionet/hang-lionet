@@ -43,7 +43,7 @@ public class Solution {
         String s = String.valueOf(num);
         char[] chars = s.toCharArray();
         int i = 0, j = chars.length - 1;
-        while (i < j) {
+        while (i <= j) {
             if (chars[i] != chars[j]) {
                 return false;
             }
